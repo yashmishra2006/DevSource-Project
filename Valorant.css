@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+.icon{
+    display: flex;
+
+}
+
+.icon:hover{
+    color:red;
+    fill: red;
+}
+
+.hov{
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.hov:hover{
+    background-color: rgb(50, 50, 50);
+    color : red;
+
+}
+
+.icon p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.hov_parent{
+    padding: 8px;
+}
+
+.hov_parent:hover{
+    border-bottom: 2px solid red;
+    padding-bottom: 6px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.drop:hover{
+    background-color: rgb(50, 50, 50);
+    color : red;
+}
+
+.drop{
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+.menu{
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+    border-top: 2px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 110%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    gap: 15px;
+    width: 8rem;
+}
+
+.option:hover{
+    background-color: gray;
+    color: white;
+}
+
+.option{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    color: grey;
+    text-align: center;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.riot_icon{
+    fill: white;
+}
+
+.riot_icon:hover{
+    fill: red;
+}
+
+.riot_games > p {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.valo:hover{
+    fill: red;
+    stroke: red;
+}
+
+.logo:hover{
+    fill: red;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.search-logo{
+    margin: 20px;
+}
+
+.globe{
+    margin: 20px;
+}
+
+.play-btn{
+    width: 6rem;
+    height: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(255,0,0);
+    background: linear-gradient(5deg, red , red 40%, rgb(252, 114, 45) 100%);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: large;
+}
+
+video{
+    filter: grayscale(0.2);
+}
+
+
+.ankit-button {
+    font-family: 'Ropa Sans', sans-serif;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border: 1px solid #0E1822;
+    padding: 0.8rem 2.1rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-color: #0E1822;
+    background-size: 200%;
+    background-position: 200%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    transition-property: background-position, border, color;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .ankit-button:hover {
+    border: 1px solid #FF4655;
+    color: white;
+    background-position: 40%;
+  }
+  
+  .ankit-button:before {
+    content: "";
+    position: absolute;
+    background-color: #0E1822;
+    width: 0.2rem;
+    height: 0.2rem;
+    top: -1px;
+    left: -1px;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  .ankit-button:hover:before {
+    background-color: white;
+  }
+  
+  .ankit-button:hover:after {
+    background-color: white;
+  }
+  
+  .ankit-button:after {
+    content: "";
+    position: absolute;
+    background-color: #FF4655;
+    width: 0.3rem;
+    height: 0.3rem;
+    bottom: -1px;
+    right: -1px;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ankit {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .ankit:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0.5em);
+    height: 50%;
+    left: -0.3em;
+    top: -0.3em;
+    border: 1px solid #0E1822;
+    border-bottom: 0px;
+    opacity: 0.3;
+  }
+  
+  .ankit:after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0.5em);
+    height: 50%;
+    left: -0.3em;
+    bottom: -0.3em;
+    border: 1px solid #0E1822;
+    border-top: 0px;
+    opacity: 0.3;
+    z-index: 0;
+  }
+  .ankit p{ 
+    font-size: 0px;
+  }
+
+.wrap{
+    position: relative;
+}
+
+.main{
+    color: white;
+    position: absolute;
+    z-index: 20;
+    top: 45%;
+    left: 35%;
+}
+
+.news{
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ece1d7a8a15c7f55cb3a09a8aca0fd5d5d93c9ac-5120x1140.png?auto=format&fit=fill&q=80&w=1897);
+}
+
+.news-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.news-head > p {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.news-head > span{
+    font-size: large;
+}
+
+.news-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.news-card{
+    width: 400px;
+    margin: 10px;
+}
+
+
+.news-img-1 > img {
+    height: 250px;
+    width:350px
+}
+
+
+
