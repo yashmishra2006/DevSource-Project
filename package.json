@@ -1,0 +1,19 @@
+{
+  "name": "devsource-project",
+  "version": "1.0.0",
+  "description": "Fork of the valorant devsource project",
+  "main": "Valorant.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashmishra2006/DevSource-Project.git"
+  },
+  "author": "Yash Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashmishra2006/DevSource-Project/issues"
+  },
+  "homepage": "https://github.com/yashmishra2006/DevSource-Project#readme"
+}
